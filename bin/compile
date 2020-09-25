@@ -51,6 +51,7 @@ if [ -e $BUILD_DIR/.hugotheme ]; then
 fi
 
 # Build the site
+rm -Rf ./public
 echo "\n-----> Building the site"
 cd $BUILD_DIR
 mkdir -p static | indent
