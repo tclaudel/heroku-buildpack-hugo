@@ -3,5 +3,5 @@
 cat << EOF
 ---
 default_process_types:
-  web: "rm -Rf ./public; hugo; cd public && python -m SimpleHTTPServer \$PORT"
+  web: "cd public && python -m SimpleHTTPServer \$PORT"
 EOF
